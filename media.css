@@ -1,4 +1,7 @@
 @media only screen and (max-width: 376px) {
+  html {
+    font-size: 70%;
+  }
   .p-img {
     width: 100%;
     margin: auto;
@@ -7,11 +10,17 @@
     width: 95%;
     height: 200px;
   }
+  .alert {
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (min-width: 380px) and (max-width: 426px) {
   html {
-    font-size: 103%;
+    font-size: 70%;
+  }
+  .alert {
+    display: none;
   }
   .nav-links li a {
     transition: none;
@@ -79,7 +88,7 @@
 
 @media only screen and (min-width: 700px) and (max-width: 900px) {
   html {
-    font-size: 87%;
+    font-size: 93%;
   }
   .nav-ul {
     margin-left: 1.2rem;
